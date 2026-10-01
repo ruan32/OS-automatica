@@ -1,0 +1,45 @@
+# Ambiente Python
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Uploads e arquivos gerados
+uploads/
+OS geradas/
+
+# Logs
+*.log
+log.txt
+log2.txt
+
+# Variáveis de ambiente
+.env
+
+# PDFs usados para teste
+*.pdf
+
+# Arquivos temporários
+dados_extraidos.txt
+dados_organizados.json
+inventario_riscos.txt
+resultado_epi.txt
+teste_ghe_*.txt
+teste_epi.docx
+
+# Scripts antigos/testes da raiz
+/analisar_modelo.py
+/analisar_pdf.py
+/extrair_dados.py
+/extrair_epi.py
+/gerar_os.py
+/leitor_pdf.py
+/organizar_dados.py
+/testar_epi.py
+/teste_geometria.py
+/teste_tabelas.py
+
+# VS Code
+.vscode/
